@@ -6,7 +6,6 @@
  * add_node_end - adding new node at the ending of linked list
  * @head: double pointer to list_t list
  * @str: string to put in the new node
- *
  * Return: address of the new element, or NULL if it failed
  */
 list_t *add_node_end(list_t **head, const char *str)
